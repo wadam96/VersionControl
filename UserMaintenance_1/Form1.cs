@@ -54,5 +54,10 @@ namespace UserMaintenance_1
                 }
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+                listBox1.Items.Remove(listBox1.SelectedItem);
+        }
     }
 }
